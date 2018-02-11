@@ -13,8 +13,10 @@ After downloading or cloning the repo, Download [chrome webdriver](https://sites
 
 ### HOW IT WORKS
 
-It prompts to enter a city name to get the forecast for and requests the forecast for the city's name that is taken as input and replaces 'city' in url with the one entered
-http://www.weather-forecast.com/locations/<city_name_entered>/forecasts/latest
+The script uses weather-forecast to fetch the forecast. It prompts to enter a city name to get the forecast for and requests the forecast for that city's name that is taken as input and replaces 'city' in url with the one entered so the url becomes
+```
+ http://www.weather-forecast.com/locations/<city_name_entered>/forecasts/latest
+```
 
 The HTML ```div``` containing the the content of forecast is fetched through it's class. Since there are more elements associated with the same class, an array of elements is returned. The forecast for the first three days is at the index 0. We use ```.text``` to get the text of the div, which is the forecast.
 
