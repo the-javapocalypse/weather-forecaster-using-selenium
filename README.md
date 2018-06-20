@@ -6,7 +6,7 @@ A simple python web crawler to fetch three days [weather forecast](http://www.we
 
 ### Installation
 
-After downloading or cloning the repo, Download [chrome webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) or (firefox webdriver)[https://github.com/mozilla/geckodriver/releases] and extract the folder in the root folder of project. AFter that you'll need to install selenium. You can get it through pip.
+After downloading or cloning the repo, Download [chrome webdriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) or [firefox webdriver](https://github.com/mozilla/geckodriver/releases) and extract the folder in the root folder of project. After that you'll need to install selenium. You can get it through pip.
 
 ```pip isntall selenium```
 
